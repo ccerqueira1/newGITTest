@@ -1,0 +1,24 @@
+# Python Code
+
+print ('Hello and welcome!')
+user_name = input('What is your name?\n')
+
+# User enters name
+
+print('\n Hello ', user_name, '. How are you feeling today?\n')
+
+# User will select a statement and type their response
+
+set_loop = True
+while set_loop == True:
+    user_day = input("'ready' or 'not'?\n")
+    
+    if (user_day == 'not'):
+        print('\n I sorry to hear that, lets try to figure it out together!\n')
+        set_loop = False
+    if (user_day == 'ready'):
+        print('\n That is perfect, lets review the data!\n')
+        set_loop = False
+
+# Loop ends
+print("Now lets begin.\n")
